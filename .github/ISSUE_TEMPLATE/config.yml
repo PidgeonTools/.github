@@ -1,5 +1,5 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: My issue is confidential
-    url: mailto:contact.blenderdefender@gmail.com?subject=[Confidential+Issue]
+    url: mailto:contact.blenderdefender@gmail.com?subject=[Confidential%20Issue]
     about: Your issue is confidential? Please report it here.
