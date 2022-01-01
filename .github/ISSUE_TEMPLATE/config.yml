@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: asdf
+    url: https://support.github.com/contact
+    about: test.
   - name: My issue is confidential
     url: mailto:contact.blenderdefender@gmail.com?subject=[Confidential%20Issue]
     about: Your issue is confidential? Please report it here.
