@@ -1,5 +1,1 @@
 blank_issues_enabled: true
-contact_links:
-  - name: My issue is confidential
-    url: "https://bd-links.netlify.app/confidential-issue"
-    about: Your issue is confidential? Please report it here.
