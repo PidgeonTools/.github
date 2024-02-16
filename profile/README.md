@@ -6,6 +6,7 @@ We're Pidgeon Tools, a team of Blender artists and programmers. We're developing
 
 - [Pidgeon Tool Bag](https://go.pidgeontools.com/ptb)
 
+Which combines the following addons (and more) into one powerhouse addon:
 - [Super Fast Render](https://github.com/PidgeonTools/SuperFastRender)
 - [Super Project Manager](https://github.com/PidgeonTools/SuperProjectManager)
 - [Super Resolution Render](https://github.com/PidgeonTools/SuperResRender)
