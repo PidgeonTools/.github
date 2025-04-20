@@ -1,0 +1,96 @@
+name: Bug Report
+description: Create a bug report to help improving our addons.
+title: "Bug: <title>"
+labels: ["needs/triage"]
+assignees: "BlenderDefender"
+type: Bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Reporting an issue
+        Thank you for submitting your bug report! Please make sure to read the [Code of Conduct](https://github.com/BlenderDefender/.github/blob/main/CODE_OF_CONDUCT.md) first.
+        Here's a few guidelines to get you started:
+          - Pick a descriptive title. This massively increases the chance of the issue being worked on.
+          - Fill in all required details as precisely as possible.
+          - Don't be frustrated, if an issue can't be resolved immediately. There might be problems along the way, and after all, everything provided here is free and without warranty.
+
+        ## Bug Description
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## System Information"
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: "Operating System"
+      description: What operating system are you using? (You may select more than one)
+      multiple: true
+      options:
+        - Windows 10
+        - Windows 11
+        - Linux
+        - MacOS
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: blender_version
+    attributes:
+      label: "Blender Version"
+      description: Which Blender version are you using? (You may select more than one)
+      multiple: true
+      options:
+        - Blender 4.4 (latest)
+        - Blender 4.3
+        - Blender 4.2 LTS
+        - Blender 4.1
+        - Blender 4.0
+        - Blender 3.6 LTS
+        - Blender 3.5 or lower (please specify under "Additional Information")
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: addon_version
+    attributes:
+      label: "Addon Version"
+      description: Which version of this addon are you experiencing issues with?
+      placeholder: "Example: Version 1.2.2"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Additional Information"
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Screenshots and additional context
+      description: If applicable, add screenshots, log files, error messages, ... to help explain your problem.
