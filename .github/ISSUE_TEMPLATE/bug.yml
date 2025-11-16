@@ -53,10 +53,10 @@ body:
       description: What operating system are you using? (You may select more than one)
       multiple: true
       options:
-        - Windows 10
         - Windows 11
         - Linux
         - MacOS
+        - Windows 10
       default: 0
     validations:
       required: true
@@ -67,13 +67,11 @@ body:
       description: Which Blender version are you using? (You may select more than one)
       multiple: true
       options:
-        - Blender 4.4 (latest)
+        - Blender 4.5 LTS (latest)
+        - Blender 4.4
         - Blender 4.3
         - Blender 4.2 LTS
-        - Blender 4.1
-        - Blender 4.0
-        - Blender 3.6 LTS
-        - Blender 3.5 or lower (please specify under "Additional Information")
+        - Blender 4.1 or lower (please specify under "Additional Information")
       default: 0
     validations:
       required: true
