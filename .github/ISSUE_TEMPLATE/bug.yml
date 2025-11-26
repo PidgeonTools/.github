@@ -72,10 +72,16 @@ body:
         - Blender 4.4
         - Blender 4.3
         - Blender 4.2 LTS
-        - Blender 4.1 or lower (please specify under "Additional Information")
+        - Blender 4.1 or older (please specify under "Additional Information")
       default: 0
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please note that we only support Blender versions that are supported by the Blender Foundation.
+        This means that we will likely not fix issues that appear on Blender 4.1 or older.
+        You can find the oldest Blender version that is supported by the Blender Foundation on https://www.blender.org/download/lts/
   - type: input
     id: addon_version
     attributes:
