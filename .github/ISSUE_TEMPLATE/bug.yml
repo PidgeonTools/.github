@@ -45,7 +45,11 @@ body:
 
   - type: markdown
     attributes:
-      value: "## System Information"
+      value: |
+        ## System Information
+        Please provide details about the operating system, Blender version and Addon version that you were using while experiencing this issue.
+        **Important**: We only support the latest Blender version and [supported LTS versions](https://www.blender.org/download/lts/).
+        We will likely not fix issues that appear on Blender 4.1 or older.
   - type: dropdown
     id: operating_system
     attributes:
@@ -76,12 +80,6 @@ body:
       default: 0
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Please note that we only support Blender versions that are supported by the Blender Foundation.
-        This means that we will likely not fix issues that appear on Blender 4.1 or older.
-        You can find the oldest Blender version that is supported by the Blender Foundation on https://www.blender.org/download/lts/
   - type: input
     id: addon_version
     attributes:
